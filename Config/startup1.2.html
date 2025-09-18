@@ -68,7 +68,6 @@
 <body>
 
   <h1>Marre des pages d'accueil par defaut?</h1>
-  <h2> Parce que moi oui!</h2>
   <div class="search-box">
     <form action="https://www.google.com/search" method="get">
       <input type="text" name="q" placeholder="J'ai pas de bol...">
@@ -76,58 +75,29 @@
   </div>
 
   <div class="links">
-    <a href="https://root-me.org" target="_blank">🔗 Root-Me</a> 
-    <a href="https://account.hackthebox.com/dashboard" target="_blank">🔗 HTB</a>
-    <a href="https://github.com/tximista64" target="_blank">🔗 GitHub</a>
-    <a href="https://book.hacktricks.wiki/fr/generic-hacking/brute-force.html" target="_blank">🔗 Hacktriks</a>
-    <a href="https://www.thehacker.recipes/" target="_blank">🔗 The Hacker Recipes</a>
-    <a href="https://chatgpt.com/" target="_blank">🔗 Chad GPT</a>
+    <a href="https://account.hackthebox.com/dashboard" target="_blank">HTB</a>
+    <a href="https://github.com/tximista64" target="_blank">GitHub</a>
+    <a href="https://book.hacktricks.wiki/fr/generic-hacking/brute-force.html" target="_blank">Hacktriks</a>
+    <a href="https://www.thehacker.recipes/" target="_blank">The Hacker Recipes</a>
+    <a href="https://chatgpt.com/" target="_blank">Chad GPT</a>
+    <a href="https://discord.com/" target="_blank">Discord</a>
+    <a href="https://securitybreak.io/blog/" target="_blank">Security_Break</a>
+    <a href="https://unprotect.it/" target="_blank">Unprotected_Project</a>
+    <a href="https://socprime.com/blog/" target="_blank">SocPrime</a>
+    <a href="https://securelist.com/" target"_blank">Kaspersky</a>
+    <a href="https://thedfirreport.com/" target="_blank">DfirReport</a>
+    <a href="https://securityonline.info/" target"_blank">Security Online</a>
+    <a href="https://www.nextron-systems.com/blog/" target="_blank">Nextron</a>
+    <a href="https://www.zerodayinitiative.com/" target="_blank">ZerodayInitiative</a>
+    <a href="https://www.synacktiv.com/publications" target="_blank">Synactiv</a>
   </div>
+  
   <div class="rss-feed">
-    <h2>Veille</h2>
+    <h2>Rss</h2>
 
     <section>                 
       <h3>🇫🇷 CERT-FR</h3>  
       <ul id="cert-feed"></ul> 
-    </section>
-
-    <section>
-      <h3>🎧 RadioCSIRT</h3>
-      <ul id="csirt-feed"></ul>
-    </section>
-    
-    <section>
-      <h3>🧠 DFIR Report</h3>
-      <ul id="dfir-feed"></ul>
-    </section>
-    
-    <section>
-       <h3>🧊 HTB Academy</h3>
-       <ul id="htb-feed"></ul>
-
-    <section>
-      <h3>🧪 Infostealers</h3>
-      <ul id="infostealers-feed"></ul>
-    </section>
-
-    <section>
-      <h3>🔍 Unit42 (Palo Alto)</h3>
-      <ul id="unit42-feed"></ul>
-    </section>
-
-    <section>
-      <h3>🛡️ Securelist (Kaspersky)</h3>
-      <ul id="securelist-feed"></ul>
-    </section>
-
-    <section>
-      <h3>💥 Security break</h3>
-      <ul id="securitybreak-feed"></ul>
-    </section>
-
-    <section>
-      <h3>🎯 Zero Day Initiative</h3>
-      <ul id="ztinitiative-feed"></ul>
     </section>
 
     <section>
@@ -156,9 +126,8 @@
     </section>
 
     <section>
-      <h3>💀 Root-Me</h3>
-      <ul id="rootme-feed"></ul>
-    </section>
+      <h3>🧊 HTB Academy</h3>
+      <ul id="htb-feed"></ul>
 
     <section>
       <h3>📦 HackTheBox Blog</h3>
@@ -170,30 +139,23 @@
       <ul id="laluka-feed"></ul>
     </section>
 	
-    <section>
-       <h3>🎯 Security-online</h3>
-       <ul id="securityonline-feed"></ul>
-   </section>   
- 
+   <section>
+      <h3>🎧 RadioCSIRT</h3>
+      <ul id="csirt-feed"></ul>
+   </section>
+
+
   </div>
 
   <script>
     const feeds = [
-      { id: "dfir-feed", url: "https://thedfirreport.com/feed" },
       { id: "cert-feed", url: "https://www.cert.ssi.gouv.fr/feed/" },
-      { id: "infostealers-feed", url: "https://www.infostealers.com/learn-info-stealers/feed" },
       { id: "purple-feed", url: "https://feeds.acast.com/public/shows/purple-voice"},    
-      { id: "unit42-feed", url: "https://unit42.paloaltonetworks.com/feed/" },
-      { id: "securelist-feed", url: "https://securelist.com/feed/" },
-      { id: "securitybreak-feed", url: "https://blog.securitybreak.io/feed" },
-      { id: "ztinitiative-feed", url: "https://www.zerodayinitiative.com/rss/published/" },
       { id: "nolimitsecu-feed", url: "https://www.nolimitsecu.fr/feed" },
       { id: "darknet-diaries-feed", url: "https://feeds.megaphone.fm/darknetdiaries" },
-      { id: "rootme-feed", url: "https://www.youtube.com/feeds/videos.xml?channel_id=UCnvB1SJdVYv-1zkByuYM73g" },
       { id: "hackthebox-feed", url: "https://www.hackthebox.com/rss/blog/all" },
       { id: "hackspeak-feed", url: "https://anchor.fm/s/435c0d58/podcast/rss" },
       { id: "laluka-feed", url: "https://www.youtube.com/feeds/videos.xml?channel_id=UC6hdN69aeX49y7LvtKRUb8w" },
-      { id: "securityonline-feed", url: "https://securityonline.info/feed/" },
       { id: "hacktback-feed", url: "https://www.youtube.com/feeds/videos.xml?channel_id=UC3KV-CM2tO4wOsntdKkHXLw" },
       { id: "htb-feed", url: "https://roadmap.hackthebox.com/api/changelog/feed.rss?labels=academy" },
       { id: "csirt-feed", url: "https://www.radiocsirt.org/feed/" },
