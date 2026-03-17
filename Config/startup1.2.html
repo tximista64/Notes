@@ -98,6 +98,11 @@
   <div class="rss-feed">
     <h2>Rss</h2>
 
+    <section>
+      <h3>🌐 News</h3>
+      <ul id="news"></ul>
+    </section>
+   
     <section>                 
       <h3>🇫🇷 CERT-FR</h3>  
       <ul id="cert-feed"></ul> 
@@ -162,6 +167,7 @@
       { id: "hacktback-feed", url: "https://www.youtube.com/feeds/videos.xml?channel_id=UC3KV-CM2tO4wOsntdKkHXLw" },
       { id: "htb-feed", url: "https://roadmap.hackthebox.com/api/changelog/feed.rss?labels=academy" },
       { id: "csirt-feed", url: "https://www.radiocsirt.org/feed/" },
+      { id: "news", url: "https://www.france24.com/fr/rss" },
     ];
 
     feeds.forEach(feed => {
