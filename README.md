@@ -15,11 +15,21 @@ curated for sysadmin, netsec, and cyber.
 - `zshrc` — A clean, efficient Zsh config for daily terminal work.
 - `Dockerfiles/` — Lightweight Docker setups for PowerShell and legacy Python.
 - Cheatsheets
+- Some courses
+
+       _.-'`'-._
+    .-'    _    '-.
+     `-.__  `\_.-'
+       |  `-``\|
+You're `-.....-#
+Welcome        #
+               #
+
 ---
 
 ## Philosophy
 
-> Just the essentials.
+ Just the essentials.
 
 This is my digital toolbox — minimalist, Unix-oriented, and unapologetically mine.  
 
