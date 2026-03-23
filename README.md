@@ -1,6 +1,6 @@
 # Notes
 
-A personal collection of dotfiles, Docker setups, write-ups and minimal web tools —  
+A personal collection of dotfiles, Docker setups and minimal web tools —  
 curated for sysadmin, netsec, and cyber.
 
 ---
