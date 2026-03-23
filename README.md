@@ -15,7 +15,6 @@ curated for sysadmin, netsec, and cyber.
 - `zshrc` — A clean, efficient Zsh config for daily terminal work.
 - `Dockerfiles/` — Lightweight Docker setups for PowerShell and legacy Python.
 - Cheatsheets
-- HTB write-ups
 ---
 
 ## Philosophy
