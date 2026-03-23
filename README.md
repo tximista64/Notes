@@ -44,7 +44,7 @@ This is my digital toolbox — minimalist, Unix-oriented, and unapologetically m
 | `zshrc`           | Minimal Zsh config (especially visuals, and workflow tweaks|
 | `Dockerfiles/`    | Personal lab with Dockerfiles for PowerShell & old Python. |
 | `Cheatsheet`      | Collection of Blueteam and Pentest cheatsheets             |
-| `Write-ups`       | Write-ups of HTB boxes and sherlocks                       |
+| `Courses`         | Courses from several platforms                             |
 ---
 
 ## License
