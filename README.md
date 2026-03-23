@@ -17,6 +17,7 @@ curated for sysadmin, netsec, and cyber.
 - Cheatsheets
 - Some courses
 
+``` 
        _.-'`'-._
     .-'    _    '-.
      `-.__  `\_.-'
@@ -24,7 +25,7 @@ curated for sysadmin, netsec, and cyber.
 You're `-.....-#
 Welcome        #
                #
-
+```
 ---
 
 ## Philosophy
